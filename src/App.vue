@@ -10,6 +10,7 @@
         <RouterLink to="/">Главная</RouterLink>
         <RouterLink to="/games">Игры</RouterLink>
         <RouterLink to="/about">О проекте</RouterLink>
+        <RouterLink to="/contacts">Контакты</RouterLink>
       </nav>
       <RouterLink class="header-action" to="/games"
         >Выбрать игру <span>↗</span></RouterLink

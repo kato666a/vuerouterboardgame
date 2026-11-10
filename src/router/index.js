@@ -6,7 +6,10 @@ import AboutPage from "../pages/AboutPage.vue";
 import NotFoundPage from "../pages/NotFoundPage.vue";
 
 // Адрес слева → страница справа.
+import ContactsPage from "../pages/ContactsPage.vue";
+
 const routes = [
+  { path: "/contacts", name: "contacts", component: ContactsPage },
   { path: "/", name: "home", component: HomePage },
   { path: "/games", name: "games", component: GamesPage },
   { path: "/games/:id", name: "game", component: GamePage, props: true },
